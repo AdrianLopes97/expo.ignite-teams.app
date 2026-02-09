@@ -4,7 +4,7 @@ import { Container, Title, SubTitle } from "./styles";
 type Props = {
     title: string;
     subtitle: string;
-}
+};
 
 export function HighLight(props: Props) {
     const { title, subtitle } = props;

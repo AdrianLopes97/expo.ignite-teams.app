@@ -9,22 +9,13 @@ export function Players() {
         <Container>
             <Header showBackButton />
 
-            <HighLight
-                title="Nome da turma"
-                subtitle="Adicione a galera e separe os times"
-            />
+            <HighLight title="Nome da turma" subtitle="Adicione a galera e separe os times" />
 
             <Form>
-                <Input
-                    placeholder="Nome da pessoa"
-                    autoCorrect={false}
-                />
+                <Input placeholder="Nome da pessoa" autoCorrect={false} />
 
-                <ButtonIcon
-                    icon="add"
-                />
+                <ButtonIcon icon="add" />
             </Form>
-
         </Container>
-    )
+    );
 }

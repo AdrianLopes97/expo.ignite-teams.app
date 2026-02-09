@@ -15,16 +15,16 @@ export const Container = styled(TouchableOpacity)`
 
 export const Title = styled.Text`
     ${({ theme }) => css`
-        font-size: ${ theme.FONT_SIZE.MD}px;
-        font-family: ${ theme.FONT_FAMILY.REGULAR};
-        color: ${ theme.COLORS.GRAY_200};
+        font-size: ${theme.FONT_SIZE.MD}px;
+        font-family: ${theme.FONT_FAMILY.REGULAR};
+        color: ${theme.COLORS.GRAY_200};
     `}
 `;
 
 export const Icon = styled(UsersThree).attrs(({ theme }) => ({
     color: theme.COLORS.GREEN_700,
     size: 32,
-    weight: 'fill',
+    weight: "fill",
 }))`
     margin-right: 20px;
 `;
