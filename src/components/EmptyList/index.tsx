@@ -1,7 +1,7 @@
 import { Container, Message } from "./styles";
 
 type Props = {
-    message: string;
+    readonly message: string;
 };
 
 export function ListEmpty(props: Props) {
